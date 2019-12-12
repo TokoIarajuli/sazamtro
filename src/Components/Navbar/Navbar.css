@@ -1,0 +1,41 @@
+.inner_navbar {
+  display: flex;
+  border: 2px solid #000000;
+  margin: 2vh;
+  margin-left: 12vw;
+}
+
+.inner_navbar div {
+  color: #e8df06;
+  margin: 2.5vw;
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 14px !important;
+  border: 2px solid #e8df06;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+.inner_navbar div a {
+  color: #e8df06 !important;
+}
+
+.logo_wrapper {
+  position: relative;
+}
+
+.logo_wrapper img {
+  position: absolute;
+  top: 2.5vh;
+  left: 2vw;
+  cursor: pointer;
+  width: 8vw;
+}
+
+.inner_navbar div:hover {
+  transition: 0.3s ease-in;
+  transform: scale(1.2);
+}
+
+/* .active:target {
+  color: aqua;
+} */

@@ -1,0 +1,11 @@
+.lead_image {
+  border-radius: 4px;
+}
+
+.Lead_wrapper {
+  text-align: center;
+  /* width: 100vw;
+  height: 100vh;
+  background-image: url("../../giphy.gif");
+  background-size: cover; */
+}

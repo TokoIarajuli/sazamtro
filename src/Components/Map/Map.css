@@ -1,0 +1,112 @@
+.kaxeti,
+.mtianeti,
+.kartli,
+.samcxe {
+  position: relative;
+}
+
+/* .main_map {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../giphy.gif");
+  background-size: cover;
+} */
+
+.kaxeti img,
+.kaxeti p {
+  position: absolute;
+  right: 17vw;
+  top: 15vw;
+}
+
+.kaxeti p {
+  font-size: 27px;
+  top: 43vh;
+  right: 25vw;
+  color: red;
+}
+
+.kaxeti img:hover,
+.kaxeti p:hover,
+.mtianeti img:hover,
+.kartli img:hover,
+.samcxe img:hover,
+.imereti img:hover,
+.racha img:hover,
+.adjara img:hover,
+.guria img:hover,
+.samegrelo img:hover,
+.abxazeti img:hover,
+.svaneti img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: 0.5s ease-in;
+}
+
+.mtianeti img {
+  position: absolute;
+  right: 28vw;
+  top: 19vh;
+}
+
+.kartli img,
+.kartli p {
+  position: absolute;
+  right: 31vw;
+  top: 23vh;
+}
+
+.kartli p {
+  font-size: 27px;
+  top: 50vh;
+  right: 38vw;
+  color: red;
+}
+.samcxe img {
+  position: absolute;
+  right: 42.7vw;
+  top: 40.7vh;
+}
+.imereti img {
+  position: absolute;
+  right: 47vw;
+  top: 50vh;
+}
+.racha img {
+  position: absolute;
+  right: 46vw;
+  top: 37.5vh;
+}
+.adjara img,
+.adjara p {
+  position: absolute;
+  right: 58vw;
+  top: 67.5vh;
+}
+
+.adjara p {
+  font-size: 27px;
+  top: 73vh;
+  left: 35vw;
+  color: red;
+}
+.guria img {
+  position: absolute;
+  right: 58vw;
+  top: 58.5vh;
+}
+.samegrelo img {
+  position: absolute;
+  right: 58vw;
+  top: 40.5vh;
+}
+.abxazeti img {
+  position: absolute;
+  right: 63vw;
+  top: 22.7vh;
+}
+.svaneti img {
+  position: absolute;
+  right: 50.5vw;
+  top: 29vh;
+}
